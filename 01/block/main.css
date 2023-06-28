@@ -1,0 +1,52 @@
+﻿/* Правила по умолчанию */
+* {padding:0px; margin:0px; border-collapse:collapse;}
+
+a{text-decoration:none; color:white}
+body {background:url(images/Background.png);}
+span {color: coral;}
+span.bl {font-size:18px; color:steelblue;}
+span.sp {color: coral; text-decoration:underline;}
+
+/* Шапка */
+.main { width:940px; margin: 10px auto; font-family: "Tahoma";}
+.images {text-align:left;}
+.images>div:nth-child(2) {padding-right:2px;top:-5px; position:relative;}
+.images>div:nth-child(1) {text-align:bottom;}
+.images>div:nth-child(3) {top:-10px; position:relative;}
+.images>div>img:nth-child(2) {left:-3px; position:relative;}
+.images>div>img:nth-child(3) {left:-6px; position:relative;}
+.images>div>img:nth-child(4) {left:-9px; position:relative;}
+.images>div>img:nth-child(5) {left:-12px; position:relative;}
+.images>div>img:nth-child(6) {left:-15px; position:relative;}
+
+/* Дизайн меню */
+#menu {text-align:left; width:940px; padding-top:13px; height:53px; padding-left:2px;}
+#menu li {display: inline;  position:relative; }
+#menu li a {padding:21px;  font-size: 18px; font-family: "Square721DmNormal"; color: white; text-decoration:none; background:url(images/4.jpg);}
+#menu li a:hover {color: steelblue; background:url(images/23_34.jpg); padding:28px; font-size: 19px; font-family: "Square721DmNormal";  }
+
+/* Дизайн контента */
+#content {width:910px; font-size: 17px; color:white; display:inline-block;}
+#contdivleft {float:left;padding:15px; width:350px; font-size: 17px; color:white; background: #1b1f2a; height:100%; display:inline-block; }
+#contdivleft>div:nth-child(3) {display:inline-block; background:url(images/date.png) no-repeat; background-position:1px 3px; }
+#contdivleft>div:nth-child(4) {display:inline-block; background:url(images/date.png) no-repeat; background-position:1px 3px;}
+#contdivleft>div:nth-child(5){display:block; width:350px; text-align:right;}
+#contdivleft>div>div {float:right; width:80%; margin-top:-16px;}
+#contdivright {padding:15px; width:490px; font-size: 17px; color:white; display:inline-block; height:100%;}
+#contdivright>img {width:49%;}
+#contdivright>p {margin-top:15px;}
+#contdivright>p:nth-child(1) {margin-top:0px;}
+
+/* Дизайн подвала */
+#basement {width:100%; font-size: 17px; color:white;  background: #1b1f2a; margin-top:10px;}
+#basement>div{width:28%; padding:18px; text-align:center; display:inline-block; height:100%; vertical-align: top;}
+#basement ul {list-style-image:url(images/lu.png);}
+#basement ul li{margin-left:20px; text-align:left; margin-top: 15px;}
+#basement img {margin-top:20px;}
+#basement>div:nth-child(3){width:29.3%}
+#basement>div:nth-child(2)>p:nth-child(3) {padding-left:7px;text-align:left; width:270px;}
+
+/* Дизайн низины */
+#lowers {width:97.9%; font-size: 17px; color:white;  background: #12151C; padding: 10px;}
+#lowers p {margin-left:20px;}
+

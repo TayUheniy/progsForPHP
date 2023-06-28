@@ -1,0 +1,11 @@
+.login {margin: 0 auto;text-align: center;background: blueviolet;width: 400px;height: 400px;padding: 100px;}
+input{ width: 250px;}
+.submit {height: 50px;background: aqua;}
+.formuser{margin: 0 auto;text-align: center;background: fuchsia;width: 500px;height:auto;border: 5px solid;position: relative;}
+.message {position: relative;background: bisque;width: 100%;min-height: 500px;height: auto;}
+.user {padding: 15px;position: relative;}
+.ownUser{margin-left: 250px; padding-top:10px; background: #99ffcc; margin-bottom: 5px; margin-right: 5px; position: relative;}
+.someoneUser{margin-right: 250px; padding-top:10px; background: #ffffcc;  margin-bottom: 5px; margin-left: 5px; position: relative;}
+.user>form>input {height:5%;}
+div {position: relative;}
+.page{background: aqua;}

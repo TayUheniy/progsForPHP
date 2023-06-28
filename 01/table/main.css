@@ -1,0 +1,61 @@
+/* Правила по умолчанию*/
+* {padding:0px; margin:0px; border-collapse:collapse;}
+table {width:100%;}
+td {vertical-align:top;}
+
+a{text-decoration:none; color:white;}
+#main>tbody>tr>td:nth-child(2)  {padding: 0px 10px;}
+body {background:url(images/Background.png);}
+span {color: coral; }
+
+/* Дизайн шапки */
+#tableincap {width: 920px; position: absolute;table-layout:fixed; margin-top:25px; }
+.tablecap {width: 908px; height:500px;}
+#tableincap>tbody>tr>td {position:relative;text-align:center; }
+
+/* Дизайн меню */
+#menu {text-align:center; font-family: "Square721DmNormal"; }
+#menu ul {width:926px; height: 60px; padding-top:15px;}
+#menu li {display: inline;  position:relative; }
+#menu li a {padding:21px;  font-size: 18px;  color: white; text-decoration:none; background:url(images/4.jpg);}
+#menu li a:hover {color: steelblue; background:url(images/23_34.jpg); padding:28px; font-size: 19px; }
+
+/* Дизайн контента */
+.tablecontent {width: 908px; font-family: "Tahoma"; }
+#content {width: 920px;  color:white; height: 390px;}
+#content ul {list-style-image:url(images/lu.png); width:300px; }
+#content ul li{margin-left:20px; text-align:left; margin-top: 15px; margin-bottom: 15px;}
+#content>tbody>tr>td:nth-child(2) {width:600px; }
+#content>tbody>tr>td {height: 70%;}
+.incontenttableleft {width: 380px; background: #1b1f2a; height:100px;}
+.incontenttableleft>tbody>tr>td {padding:18px; padding-right:2px; padding-bottom:5px;}
+.incontenttableleft>tbody>tr:nth-child(1)>td:nth-child(1) {padding-left:30px;}
+.incontenttableleft>tbody>tr:nth-child(2)>td:nth-child(1) {background:url(images/date.png) no-repeat;background-position:20px 20px;
+ padding-left:30px; padding-top:23px;}
+ .incontenttableleft>tbody>tr:nth-child(3)>td:nth-child(1) {background:url(images/date.png) no-repeat;background-position:20px 20px;
+ padding-left:30px; padding-top:23px;}
+.incontenttableleft>tbody>tr:nth-child(1)>td:nth-child(2) {padding-left:3px;}
+.incontenttableleft>tbody>tr:nth-child(1)>td {height:10px; font-family: "Square721DmNormal"; font-size:17px;}
+.incontenttableleft>tbody>tr>td:nth-child(1) {text-align:left; width:30px; }
+.incontenttableleft>tbody>tr:nth-child(4)>td {text-align:right; }
+.incontenttableright {width: 520px;}
+.incontenttableright>tbody>tr>td {padding:10px;}
+.incontenttableright>tbody>tr:nth-child(2)>td {padding:0px; }
+.incontenttableright>tbody>tr:nth-child(2)>td>table>tbody>tr>td{padding:3px;  width:200px;}
+span.bl {font-size:18px; color:steelblue; }
+span.sp {color: coral; text-decoration:underline; font-family: "Square721DmNormal"; }
+
+/* Дизайн подвала */
+.basement {width: 900px; margin-top:10px; font-family: "Tahoma"; }
+#lowers {width: 925px;  color:white; height: 390px; background: #1b1f2a; margin-top:10px; text-align:center; }
+#lowers>tbody>tr>td {padding: 10px; width:300px;}
+#lowers>tbody>tr:nth-child(1){height:50px; font-family: "Square721DmNormal"; }
+#lowers ul {list-style-image:url(images/lu.png); width:300px; }
+#lowers ul li{margin-left:20px; text-align:left; margin-top: 15px;}
+#lowers img{padding:0px;}
+#lowers p {text-align:left; padding: 7px;}
+
+
+/* Дизайн низины */
+#giperlowers {background: #12151C; width:925px; font-family: "Tahoma"; }
+#giperlowers>tbody>tr>td {padding: 10px; color: white;}

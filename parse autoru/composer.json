@@ -1,0 +1,14 @@
+{
+    "name": "drive2/parser",
+    "description": "Parsing site to drive2.ru",
+    "authors": [
+        {
+            "name": "Artem Timonin",
+            "email": "tayuheniy@yandex.ru"
+        }
+    ],
+	"autoload": {
+        "classmap": ["src/"
+		]
+    }
+}
