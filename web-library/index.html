@@ -1,0 +1,20 @@
+<html>
+<head>
+	<meta charset='utf-8'>
+	<link href='style.css' rel='stylesheet' type='text/css'/>
+	<script type='text/javascript' src='script.js'></script>
+	</head>
+	
+	<body>
+<form name='input' method='POST'><table>
+		<tr><td>Название книги</td><td><input type='text' name='namebook' placeholder='Капитанская дочка'  id='namebook' oninput='sendform();'></td></tr>
+		<tr><td>Автор книги</td><td><input type='text' name='authorbook' placeholder='Пушкин Александр'  id='authorbook' oninput='sendform();'></td></tr>
+		<tr><td>Год создания</td><td><input type='number' name='yearcreate' placeholder='1836'  id='yearcreate' oninput='sendform();'></td></tr>
+		<tr><td>Жанр</td><td><input type='text' name='ganre' id='ganre' placeholder='роман' oninput='sendform();'></td></tr>
+		<tr><td>Год прочтения</td><td><input type='number' name='yearread'  id='yearread' placeholder='2020' oninput='sendform();'></td></tr>
+		<tr><td>Аннотация</td><td><textarea  name='annotation' id='annotation' placeholder='Исторический роман (или повесть) Александра Пушкина, действие которого происходит во время восстания Емельяна Пугачёва.' oninput='sendform();'></textarea></td></tr>
+		<tr><td><input id='buttoninput' name='buttoninput' type='submit' value='Добавить' onclick='return sendform();'></td><td><input id='buttonresearch' name='buttonresearch' type='submit' value='Найти' onclick='return searchform();'></td></tr>
+		</table>
+	</form>
+</body>
+</html>

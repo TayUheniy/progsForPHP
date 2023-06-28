@@ -1,0 +1,6 @@
+form { position: relative; }
+table{ background-image: url('image/book.png'); border-collapse: collapse; margin:auto; width: 70%; height:90%;background-position-x: 50%;background-position-y: 50%; background-repeat: no-repeat; background-size: 100%;}
+td {width:1%; font-size: 20px; text-align: center; margin:10px; font-style: oblique; font-weight: 700;}
+#buttoninput { width:30%; padding:1%;}
+#buttonresearch { width:30%; padding:1%;}
+input{width: 50%;}
